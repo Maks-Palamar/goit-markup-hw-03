@@ -135,12 +135,11 @@ img {
     display: flex;
     gap: 40px;
     align-items: center;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .header-menu-item {
-    padding: 24px 0;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-menu-link {
@@ -205,7 +204,8 @@ img {
         max-width: 496px;
         margin-bottom: 48px;
         justify-content: center;
-        padding: 188px 0;
+        padding-top: 188px;
+        padding-bottom: 188px;
 }
 
 .hero-container {
