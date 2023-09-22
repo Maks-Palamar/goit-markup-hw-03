@@ -135,8 +135,6 @@ img {
     display: flex;
     gap: 40px;
     align-items: center;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .header-menu-item {
@@ -151,6 +149,8 @@ img {
         line-height: 1.5;
         /* 150% */
         letter-spacing: 0.02em;
+        padding-top: 24px;
+        padding-bottom: 24px;
 }
 
 .header-menu-link:hover, .header-menu-link:focus {
