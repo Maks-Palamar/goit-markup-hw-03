@@ -333,10 +333,13 @@ img {
 
 /*-----------PORTFOLIO----------*/
 
-.portfoliosection {}
+.portfoliosection {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 
 .portfoliosection-title {
-    padding-top: 120px;
+    /*padding-top: 120px;*/
     margin-bottom: 72px;
 }
 
@@ -344,7 +347,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     gap: 48px 24px;
-    padding-bottom: 120px;
+    /*padding-bottom: 120px;*/
 }
 
 .portfoliosection-project {
@@ -359,17 +362,18 @@ img {
 
 .portfoliosection-project-image {}
 
+.category {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
 .portfoliosection-project-name {
-    margin-top: 32px;
     margin-bottom: 8px;
-    padding-left: 16px;
-    padding-right: 16px;
 }
 
 .portfoliosection-project-type {
-    padding-bottom: 32px;
-    padding-left: 16px;
-    padding-right: 16px;
+    
 }
 
 /*---------------------*/
