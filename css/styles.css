@@ -139,10 +139,11 @@ img {
     display: flex;
     gap: 40px;
     align-items: center;
-    padding: 24px 0
 }
 
-.header-menu-item {}
+.header-menu-item {
+    padding: 24px 0;
+}
 
 .header-menu-link {
     color: var(--NAVY-BLUE, #2E2F42);
