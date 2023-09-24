@@ -141,8 +141,11 @@ img {
     align-items: center;
 }
 
-.header-menu-item {
+.first-item {
     padding: 24px 0;
+}
+
+.header-menu-item {
 }
 
 .header-menu-link {
@@ -154,7 +157,6 @@ img {
         line-height: 1.5;
         /* 150% */
         letter-spacing: 0.02em;
-        padding: 24px 0;
 }
 
 .header-menu-link:hover, .header-menu-link:focus {
