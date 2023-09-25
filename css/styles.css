@@ -107,7 +107,7 @@ img {
     display: flex;
     flex-grow: 1;
     align-items: center;
-    justify-content: space-between;
+    /*justify-content: space-between;*/
 }
 
 .logo {
@@ -165,12 +165,15 @@ img {
 
 .address {font-style: normal;
     /*padding-top: 25.5px;
-    padding-bottom: 25.5px;*/}
+    padding-bottom: 25.5px;*/
+    /*margin-left: 332px;*/
+    align-items: flex-end;}
+    
 
 .address-list {
     display: flex;
     gap: 40px;
-    margin-left: 332px;
+    /*margin-left: 332px;*/
     /*padding-right: 156px;*/
 }
 
@@ -215,9 +218,10 @@ img {
         line-height: 1.07;
         letter-spacing: 0.02em;
         max-width: 496px;
+        margin: 0 auto;
         margin-bottom: 48px;
         justify-content: center;
-        margin: 48px auto;
+        
         
         
 }
@@ -318,7 +322,7 @@ img {
 .teamsection-list {
     display: flex;
     gap: 24px;
-    margin-top: 72px;
+    /*margin-top: 72px;*/
     /*padding-left: 156px;
     padding-right: 156px;*/
     /*padding-bottom: 120px;*/
@@ -344,7 +348,7 @@ img {
 
 .teamsection-members {
     text-align: center;
-    margin-top: 32px;
+    /*margin-top: 32px;*/
     margin-bottom: 8px;
 }
 
@@ -418,6 +422,7 @@ img {
     /*padding-top: 101.5px;*/
     /*padding-bottom: 0;*/
     margin-bottom: 16px;
+    margin-right: 0;
     display: inline-block;
 
 }
